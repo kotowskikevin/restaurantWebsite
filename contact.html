@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <header>
+        <center><h1>Kev's Corner</h1></center>
+    </header>
+    <hr>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact Us</a>
+    <hr>
+    <body>
+        <form action="contactUs.html" method="post">
+            <div>
+                <label id="fullNameLabel" for="fullName">Name: </label>
+                <input id="FullName" name="FullName" type="text" />
+            </div>
+            <div>
+                <label id="emailLabel" for="Email">Email: </label>
+                <input id="Email" name="Email" type="text" />
+            </div>
+            <div>
+                <label id="phoneLabel" for="Phone">Phone: </label>
+                <input id="Phone" name="Phone" type="text" />
+            </div>
+            <div>
+                <label id="reasonLabel" for="Reason">Reason for Inquiry: </label>
+                <select id="Reason" name="Reason">
+                    <option value="catering">Catering</option>
+                    <option value="privateParty">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label id="additionalInformationLabel" for="additionalInformation">Additional Information: </label>
+                <textarea id="AdditionalInformation" name="AdditionalInformation" rows="5" cols="30"></textarea>
+            </div>
+            <div>
+                <label id="haveYouBeenToTheRestaurant" for="haveYouBeenToTheRestaurant">Have you been to the restaurant? </label>
+                <input id="No" name="No" value="No" type="radio" checked/>No 
+                <input id="Yes" name="Yes" value="Yes" type="radio">Yes
+            </div>
+            <div>
+                <label id="bestDaysToContactYou" for="bestDaysToContactYou">Best days to contact you: </label>
+                <input type="checkbox" name="Monday" value="Monday"/>M 
+                <input type="checkbox" name="Tuesday" value="Monday"/>T 
+                <input type="checkbox" name="Wednesday" value="Monday"/>W 
+                <input type="checkbox" name="Thursday" value="Monday"/>Th 
+                <input type="checkbox" name="Friday" value="Monday"/>F 
+            </div>
+            <div>
+                <input type="submit"/>
+            </div>
+        </form>
+    </body>
+    <hr>
+    <footer>
+        <center><h4>1000 Bing Street, Bingville, Ohio 11311<br/>111.111.1000</h4></center>
+    </footer>
+</html>
