@@ -5,7 +5,9 @@ header {
 footer {
     text-align: center
 }
-
+h1 {
+    font-family: 'Trebuchet MS';
+}
 table {
     border-collapse: collapse;
     margin-left: auto;
@@ -15,4 +17,7 @@ table, th, td {
     text-align: center;
     border: 0px;
     padding: 15px;
+}
+th {
+    font-size: larger;
 }
