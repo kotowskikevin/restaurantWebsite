@@ -5,18 +5,22 @@
     </head>
     <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <style>
-        table {
-            border-collapse: collapse;
-            margin-left: auto;
-            margin-right: auto;
-        }
         table, th, td {
             text-align: center;
             border: 0px;
             padding: 15px;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
         }
         th {
             font-size: larger;
+            text-align: center;
+        }
+        table caption {
+            font-size: larger;
+            background-color: lightpink;
         }
         body {
             background-color: lightblue;
@@ -33,11 +37,15 @@
     <body>
         <div>
             <table>
+                <caption>Menu</caption>
+                <thead>
                 <tr>
                     <th>Burger and Fries</th>
                     <th>Hot Dog and Chips</th>
                     <th>Italian Sausage and Peppers</th>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>
                         An American Classic!<br/>
@@ -92,6 +100,32 @@
                         french fries<br/>
                         $7.95
                     </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </br>
+        <div>
+            <table>
+                <caption>Beverages</caption>
+                <tbody>
+                    <tr>
+                        <td>Root Beer</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Lemonade</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Tea</td>
+                        <td>$1.25</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </body>

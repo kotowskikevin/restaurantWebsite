@@ -21,3 +21,15 @@ table, th, td {
 th {
     font-size: larger;
 }
+a:hover {
+    font-weight: bold;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: green;
+}
+a:active {
+    text-decoration: none;
+}
