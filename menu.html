@@ -2,6 +2,17 @@
 <html>
     <head>
         <title>Menu</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+        </script>
     </head>
     <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <style>
@@ -19,8 +30,11 @@
             text-align: center;
         }
         table caption {
-            font-size: larger;
+            color: black;
+            font-size: largest;
+            font-weight: bold;
             background-color: lightpink;
+            text-align: center;
         }
         body {
             background-color: lightblue;
@@ -30,9 +44,13 @@
         <h1>Kev's Corner</h1>
     </header>
     <hr>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact Us</a>
+    <div>
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></a></li>
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+    </div>
     <hr>
     <body>
         <div>

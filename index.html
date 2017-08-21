@@ -2,25 +2,50 @@
 <html>
     <head>
         <title>Home Page</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+        </script>
     </head>
     <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <header>
         <h1>Kev's Corner</h1>
     </header>
     <hr>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact Us</a>
+    <div>
+        <ul class="nav nav-pills nav-justified">
+            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
     <hr>
-    <body>
-        <div style="background-color: lightblue;">
-            <img src="http://www.simplyscratch.com/wp-content/uploads/2012/12/Italian-Sub-Sandwich.jpg"
-                alt="Kev's Italian Sub"
-                style="width: 400px; display: block; margin: 0 auto;"/>
-                <p style="text-align: center;">
-                    Welcome to Kev's Corner! We serve up the best sandwiches piled 
-                    high with the freshest ingredients. Come on in and try one today!
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">Grand Opening!</h1>
+                <p class="lead">Come on down and see what everyone's talking about! 
+                    10% off all sandwiches!
                 </p>
+            </div>
+    </div>
+    <body>
+        <div class="container">
+            <div style="background-color: lightblue; padding-top: 10px; padding-bottom: 10px;">
+                <img src="http://www.simplyscratch.com/wp-content/uploads/2012/12/Italian-Sub-Sandwich.jpg"
+                    alt="Kev's Italian Sub"
+                    style="width: 400px; display: block; margin: 0 auto;"/>
+                    <p style="text-align: center;">
+                        Welcome to Kev's Corner! We serve up the best sandwiches piled 
+                        high with the freshest ingredients. Come on in and try one today!
+                    </p>
+            </div>
         </div>
     </body>
     <hr>

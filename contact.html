@@ -2,6 +2,17 @@
 <html>
     <head>
         <title>Contact Us</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+        </script>
     </head>
     <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <style>
@@ -13,54 +24,60 @@
         <h1>Kev's Corner</h1>
     </header>
     <hr>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact Us</a>
+    <div>
+        <ul class="nav nav-pills nav-justified">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
     <hr>
     <body>
-        <form action="contactUs.html" method="post">
-            <div>
-                <label id="fullNameLabel" for="fullName">Name: </label>
-                <input id="FullName" name="FullName" type="text" />
-            </div>
-            <div>
-                <label id="emailLabel" for="Email">Email: </label>
-                <input id="Email" name="Email" type="text" />
-            </div>
-            <div>
-                <label id="phoneLabel" for="Phone">Phone: </label>
-                <input id="Phone" name="Phone" type="text" />
-            </div>
-            <div>
-                <label id="reasonLabel" for="Reason">Reason for Inquiry: </label>
-                <select id="Reason" name="Reason">
-                    <option value="catering">Catering</option>
-                    <option value="privateParty">Private Party</option>
-                    <option value="feedback">Feedback</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-            <div>
-                <label id="additionalInformationLabel" for="additionalInformation">Additional Information: </label>
-                <textarea id="AdditionalInformation" name="AdditionalInformation" rows="5" cols="30"></textarea>
-            </div>
-            <div>
-                <label id="haveYouBeenToTheRestaurant" for="haveYouBeenToTheRestaurant">Have you been to the restaurant? </label>
-                <input id="No" name="No" value="No" type="radio" checked/>No 
-                <input id="Yes" name="Yes" value="Yes" type="radio">Yes
-            </div>
-            <div>
-                <label id="bestDaysToContactYou" for="bestDaysToContactYou">Best days to contact you: </label>
-                <input type="checkbox" name="Monday" value="Monday"/>M 
-                <input type="checkbox" name="Tuesday" value="Monday"/>T 
-                <input type="checkbox" name="Wednesday" value="Monday"/>W 
-                <input type="checkbox" name="Thursday" value="Monday"/>Th 
-                <input type="checkbox" name="Friday" value="Monday"/>F 
-            </div>
-            <div>
-                <input type="submit"/>
-            </div>
-        </form>
+        <div class="container">
+            <form action="contactUs.html" method="post">
+                <div>
+                    <label id="fullNameLabel" for="fullName">Name: </label>
+                    <input id="FullName" name="FullName" type="text" />
+                </div>
+                <div>
+                    <label id="emailLabel" for="Email">Email: </label>
+                    <input id="Email" name="Email" type="text" />
+                </div>
+                <div>
+                    <label id="phoneLabel" for="Phone">Phone: </label>
+                    <input id="Phone" name="Phone" type="text" />
+                </div>
+                <div>
+                    <label id="reasonLabel" for="Reason">Reason for Inquiry: </label>
+                    <select id="Reason" name="Reason">
+                        <option value="catering">Catering</option>
+                        <option value="privateParty">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="additionalInformationLabel" for="additionalInformation">Additional Information: </label>
+                    <textarea id="AdditionalInformation" name="AdditionalInformation" rows="5" cols="30"></textarea>
+                </div>
+                <div>
+                    <label id="haveYouBeenToTheRestaurant" for="haveYouBeenToTheRestaurant">Have you been to the restaurant? </label>
+                    <input id="No" name="No" value="No" type="radio" checked/>No 
+                    <input id="Yes" name="Yes" value="Yes" type="radio">Yes
+                </div>
+                <div>
+                    <label id="bestDaysToContactYou" for="bestDaysToContactYou">Best days to contact you: </label>
+                    <input type="checkbox" name="Monday" value="Monday"/>M 
+                    <input type="checkbox" name="Tuesday" value="Monday"/>T 
+                    <input type="checkbox" name="Wednesday" value="Monday"/>W 
+                    <input type="checkbox" name="Thursday" value="Monday"/>Th 
+                    <input type="checkbox" name="Friday" value="Monday"/>F 
+                </div>
+                <div>
+                    <input type="submit"/>
+                </div>
+            </form>
+        </div>
     </body>
     <hr>
     <footer>
